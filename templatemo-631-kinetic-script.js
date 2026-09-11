@@ -296,54 +296,6 @@
     /* =====================================================
        02 // 2D MATRIX ACCORDION
        ===================================================== */
-    (function() {
-        var grid = document.getElementById('matrix');
-        var cells = Array.prototype.slice.call(grid.querySelectorAll('.cell'));
-        // image paths live in index.html on each .cell-media div, nothing to build here
-        var activeIndex = -1;
-        var BIG = 7; // active track weight vs 1fr others -> ~78% per axis
-
-        function reset() {
-            grid.style.gridTemplateColumns = '1fr 1fr 1fr';
-            grid.style.gridTemplateRows = '1fr 1fr 1fr';
-            cells.forEach(function(c) {
-                c.classList.remove('is-active', 'is-dim');
-            });
-            activeIndex = -1;
-        }
-
-        function open(i) {
-            var col = i % 3,
-                row = Math.floor(i / 3);
-            var cols = ['1fr', '1fr', '1fr'],
-                rows = ['1fr', '1fr', '1fr'];
-            cols[col] = BIG + 'fr';
-            rows[row] = BIG + 'fr';
-            grid.style.gridTemplateColumns = cols.join(' ');
-            grid.style.gridTemplateRows = rows.join(' ');
-            cells.forEach(function(c, j) {
-                c.classList.toggle('is-active', j === i);
-                c.classList.toggle('is-dim', j !== i);
-            });
-            activeIndex = i;
-        }
-        cells.forEach(function(cell, i) {
-            function toggle() {
-                (activeIndex === i) ? reset(): open(i);
-            }
-            cell.addEventListener('click', toggle);
-            cell.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    toggle();
-                }
-                if (e.key === 'Escape') {
-                    reset();
-                }
-            });
-        });
-    })();
-
     /* =====================================================
        03 // LENTICULAR STRIP REVEAL
        ===================================================== */
