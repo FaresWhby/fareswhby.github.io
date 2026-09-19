@@ -48,3 +48,14 @@ Publish through the repository's existing GitHub Pages workflow. No new hosting 
 ## Why this structure?
 
 One HTML file per project is initially simple, but repeats the layout and makes site-wide changes tedious. This version keeps content in one place without introducing a build tool. It requires JavaScript to display projects. If search visibility, per-project social previews, or clean URLs like `/projects/courtyard-house/` become priorities, a static-site generator can produce a real HTML page per project from shared templates and content. Those features are not implemented here.
+
+
+## Sharing previews and favicon
+
+Both `index.html` and `project.html` include static Open Graph and social-card metadata in their `<head>`. Edit those tags to change the sharing title, description, or image. The preview currently uses `images/3.png`, with absolute URLs for `https://fareswhby.github.io`. Update those URLs if the hosting domain changes.
+
+Project links currently share the same general portfolio preview; they do not have project-specific previews. The project page intentionally omits a fixed `og:url` so it does not declare every query-string project link to be the homepage.
+
+`favicon.png` at the repository root is a solid black 32 x 32 PNG placeholder. Replace it with a square PNG of the same size and filename to change the browser-tab icon. It is separate from the sharing-preview image.
+
+These changes must be published before public previews can use them. Browsers and messaging apps may cache old icons and link previews.
