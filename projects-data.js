@@ -2,12 +2,12 @@
 window.PORTFOLIO_PROJECTS = [
   {
     slug: 'helix',
-    title: 'Helix',
+    title: 'Project 1',
     category: 'Brand / Code',
     summary:
       'A generative identity system that rewrites its own logotype on every page load.',
-    cover: 'images/projects/helix/cover.jpg',
-    coverAlt: 'Helix ? template placeholder image',
+    cover: 'images/3.png',
+    coverAlt: 'Project 1 architectural visualization',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -22,12 +22,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'drift',
-    title: 'Drift',
+    title: 'Project 2',
     category: 'Web / Type',
     summary:
       'Scroll-driven editorial for a kinetic typeface foundry, set entirely in motion type.',
     cover: 'images/projects/drift/cover.jpg',
-    coverAlt: 'Drift ? template placeholder image',
+    coverAlt: 'Project 2 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -36,12 +36,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'onyx',
-    title: 'Onyx',
+    title: 'Project 3',
     category: 'Product / UX',
     summary:
       'Dark-mode commerce flow with physics-based add-to-cart and elastic transitions.',
     cover: 'images/projects/onyx/cover.jpg',
-    coverAlt: 'Onyx ? template placeholder image',
+    coverAlt: 'Project 3 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -50,12 +50,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'pulse',
-    title: 'Pulse',
+    title: 'Project 4',
     category: 'Sound / Visual',
     summary:
       'A real-time audio-reactive visual built on the Web Audio API and raw canvas.',
     cover: 'images/projects/pulse/cover.jpg',
-    coverAlt: 'Pulse ? template placeholder image',
+    coverAlt: 'Project 4 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -64,12 +64,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'vellum',
-    title: 'Vellum',
+    title: 'Project 5',
     category: 'Editorial',
     summary:
       'Tactile portfolio with page-turn mechanics and a paper-grain shader fallback.',
     cover: 'images/projects/vellum/cover.jpg',
-    coverAlt: 'Vellum ? template placeholder image',
+    coverAlt: 'Project 5 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -78,12 +78,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'signal',
-    title: 'Signal',
+    title: 'Project 6',
     category: 'Campaign',
     summary:
       'Broadcast microsite where every UI control doubles as a working oscilloscope.',
     cover: 'images/projects/signal/cover.jpg',
-    coverAlt: 'Signal ? template placeholder image',
+    coverAlt: 'Project 6 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -92,12 +92,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'forge',
-    title: 'Forge',
+    title: 'Project 7',
     category: 'Industrial',
     summary:
       'Configurator for a hardware studio with a live exploded-view 3D assembly.',
     cover: 'images/projects/forge/cover.jpg',
-    coverAlt: 'Forge ? template placeholder image',
+    coverAlt: 'Project 7 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -106,12 +106,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'lumen',
-    title: 'Lumen',
+    title: 'Project 8',
     category: 'Spatial',
     summary:
       'Light-installation control panel mapped to a single sweeping gesture surface.',
     cover: 'images/projects/lumen/cover.jpg',
-    coverAlt: 'Lumen ? template placeholder image',
+    coverAlt: 'Project 8 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
@@ -120,12 +120,12 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     slug: 'apex',
-    title: 'Apex',
+    title: 'Project 9',
     category: 'Launch',
     summary:
       'Awards-shortlisted launch site for an EV brand, driven entirely by scroll velocity.',
     cover: 'images/projects/apex/cover.jpg',
-    coverAlt: 'Apex ? template placeholder image',
+    coverAlt: 'Project 9 - template placeholder image',
     paragraphs: [
       'Placeholder project: replace this text with the architectural brief, location, and design approach.',
       'Describe the materials, spaces, and key decisions here. Replace the template images with your own project photographs or drawings.',
